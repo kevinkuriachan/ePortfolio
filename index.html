@@ -1,8 +1,58 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Howdy!</h1>
-<h2>This page is still a work in progress. </h2>
-<h3>-Kevin Kuriachan</h3>
-</body>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title> Kevin Kuriachan </title>
+		<link href ="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel = "stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript">
+			$(window).on('scroll', function() {
+				if ($(window).scrollTop()) {
+					$('nav').addClass('white');
+				}
+				else {
+					$('nav').removeClass('white')
+				}
+			})
+		</script>			
+		
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<nav>
+					<div class="menu-icon">
+						<i class="fa fa-bars fa-2x"></i>
+					</div>
+					
+					<div class="logo">KEVIN KURIACHAN</div>
+					<ul>
+						<li><a class="active" href="#">HOME</a></li>
+						<li><a href="#">RESUME</a></li>
+						<li><a href="#">INTERESTS</a></li>
+						<li><a href="#">GITHUB</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="content">
+				<p>This website is currently a work in progress.</p> 
+			</section>
+		</div>
+		
+		<script type="text/javascript">
+		
+			//menu toggle button 
+			$(document).ready(function() {
+				$(".menu-icon").on("click", function() {
+					$("nav ul").toggleClass("showing");
+				});
+			});
+			
+		</script>
+	</body>
+
 </html>
