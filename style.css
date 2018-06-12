@@ -206,16 +206,4 @@ footer h3{
 	#fixed {
 		display: flex;
 	}
-
-	#resume_landing {
-		background-size: auto 100%
-	}
-
-	/*
-	.cover-img {
-		background-size: cover;
-		background-attachment: scroll;
-		-webkit-background-size:cover;
-	}
-	*/
 }
