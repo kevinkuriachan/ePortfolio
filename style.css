@@ -58,7 +58,7 @@ html,body {
 }
 
 #resume_landing {
-	background: url(img/code.jpg) no-repeat center center fixed;
+	background: url(img/header.jpg) no-repeat center center fixed;
 	height: 40vh;
 	width: 100vw;
 	display:table;
@@ -177,6 +177,9 @@ footer h3{
 		padding: 10px;
 	}
 	#resume_landing h1 {
-	font-size: 250%;
+		font-size: 250%;
+	}
+	#fixed {
+		display: flex;
 	}
 }
