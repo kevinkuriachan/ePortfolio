@@ -165,6 +165,15 @@ footer h3{
 	background-size: cover;
 }
 
+.backdrop {
+	background: url(img/work.jpg);
+	min-height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 .cover-img body:after{
       content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
