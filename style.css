@@ -173,5 +173,7 @@ footer h3{
 		font-size: 100%;
 		padding: 10px;
 	}
-	
+	#resume_landing h1 {
+	font-size: 300%;
+	}
 }
