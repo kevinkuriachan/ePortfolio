@@ -165,6 +165,11 @@ footer h3{
 	background-size: cover;
 }
 
+.cover-img {
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
 @media (max-width: 768px) {
 	.landing-text h1 {
 		font-size: 600%;
@@ -183,6 +188,7 @@ footer h3{
 		display: flex;
 	}
 	.cover-img {
-		background-attachment:scroll;
+		background-size: cover;
+		background-attachment: scroll;
 	}
 }
