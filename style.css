@@ -75,7 +75,7 @@ html,body {
 	color: #500000;
 }
 #resume_landing h1 {
-	font-size: 800%;
+	font-size: 700%;
 	color: white;
 	text-shadow: 0 0 30px black;
 }
@@ -173,4 +173,5 @@ footer h3{
 		font-size: 100%;
 		padding: 10px;
 	}
+	
 }
