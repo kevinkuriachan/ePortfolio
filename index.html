@@ -2,57 +2,139 @@
 <html lang = "en">
 	<head>
 		<meta charset="utf-8">
-		<title> Kevin Kuriachan </title>
-		<link href ="style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel = "stylesheet">
-		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script type="text/javascript">
-			$(window).on('scroll', function() {
-				if ($(window).scrollTop()) {
-					$('nav').addClass('white');
-				}
-				else {
-					$('nav').removeClass('white')
-				}
-			})
-		</script>			
-		
+		<title> Kevin Kuriachan </title>		
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <link href="style.css" rel="stylesheet" />
+			
 	</head>
 
 	<body>
-		<div class="wrapper">
-			<header>
-				<nav>
-					<div class="menu-icon">
-						<i class="fa fa-bars fa-2x"></i>
-					</div>
-					
-					<div class="logo">KEVIN KURIACHAN</div>
-					<ul>
-						<li><a class="active" href="#">HOME</a></li>
-						<li><a href="#">RESUME</a></li>
-						<li><a href="#">INTERESTS</a></li>
-						<li><a href="#">GITHUB</a></li>
-						<li><a href="#">CONTACT</a></li>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">KEVIN KURIACHAN</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-main">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">HOME</a></li>
+						<li><a href="pages/resume.html">RESUME</a></li>
+						<li><a href="pages/interests.html">INTERESTS</a></li>
+						<li><a href="pages/contact.html">CONTACT</a></li>
 					</ul>
-				</nav>
-			</header>
-			<section class="content">
-				<p>This website is currently a work in progress.</p> 
-			</section>
+				</div>
+			</div>
+		</nav>
+
+		<div id="home">
+			<div class="landing-text">
+				<h1>Howdy!</h1>
+				<h2>I'm Kevin Kuriachan...</h2>
+				<br>
+				<a href="#aboutMe" class="btn btn-default bt-lg">Get to know me</a>
+			</div>
 		</div>
-		
-		<script type="text/javascript">
-		
-			//menu toggle button 
-			$(document).ready(function() {
-				$(".menu-icon").on("click", function() {
-					$("nav ul").toggleClass("showing");
-				});
-			});
-			
-		</script>
+
+		<div class="padding">
+			<div class="container">
+				<div class="row">
+					<div id="aboutMe" class="col-sm-6">
+						<h2 >About Me</h2>
+						<p class="lead">
+						I am a proud member of the Fightin’ Texas Aggie Class of 2021! Currently, I plan to earn a Master’s in Computer Science with a minor in cybersecurity. I want to work as an ethical hacker and cybersecutiy professional to develop tools that aid in finding and patching vulnerabilities. Essentially, I want to work on the back end so that the world is a safer place for you and others on the user end of technology.​
+						</p>
+					</div>
+
+					<div class="col-sm-6 text-center">
+						<img class="picture img-circle img-responsive" src="img/me.jpg" alt="image of Kevin.">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+		<div class="padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<h4>Column 1</h4>
+						<p>Place holder text.</p>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="img/sass.png" class="img-responsive">
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<h4>Column 2</h4>
+						<p>Place holder text.</p>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="img/less.png" class="img-responsive">
+					</div>
+
+				</div>
+			</div>
+		</div>
+		-->
+
+		<div id="fixed">
+
+		</div>
+		<!--
+		<div class="padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h4>Another section...</h4>
+						<p>
+						Placeholder paragraph 1
+						</p>
+						<p>
+						Placeholder paragraph 2
+						</p>
+					</div>
+
+					<div class="col-sm-6">
+						<img src="img/palceholder_img.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		-->
+
+		<footer class="container-fluid text-center">
+			<div class="row">
+				<div class="col-sm-4">
+					<!-- <h3>Contact Me</h3> 
+					<h4>contact information</h4> -->
+				</div>
+
+				<div class="col-sm-4">
+					<h3>Connect</h3>
+					<h5><a href="https://www.linkedin.com/in/kuriachankevin/" class="fa fa-linkedin"></a>
+					<a href="https://github.com/kevinkuriachan" class="fa fa-github"></a></h5>
+				</div>
+
+				<div class="col-sm-4">
+					
+				</div>				
+
+				<div class="col-sm-4">
+					
+				</div>
+			</div>
+		</footer>
+
 	</body>
 
 </html>
