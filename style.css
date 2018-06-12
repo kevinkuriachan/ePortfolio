@@ -186,12 +186,14 @@ footer h3{
 	}
 
 	#resume_landing {
-		background-size: cover;
-		background-attachment: scroll;
+		-webkit-background-size:cover;
 	}
 
+	/*
 	.cover-img {
 		background-size: cover;
 		background-attachment: scroll;
+		-webkit-background-size:cover;
 	}
+	*/
 }
