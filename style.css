@@ -186,7 +186,7 @@ footer h3{
 	}
 
 	#resume_landing {
-		-webkit-background-size:cover;
+		background-size: auto 100%
 	}
 
 	/*
