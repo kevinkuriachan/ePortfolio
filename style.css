@@ -58,7 +58,7 @@ html,body {
 }
 
 #resume_landing {
-	background: url(header.jpg) no-repeat center center fixed;
+	background: url(img/header.jpg) no-repeat center center fixed;
 	height: 40vh;
 	width: 100vw;
 	display:table;
