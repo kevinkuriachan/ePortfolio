@@ -182,4 +182,7 @@ footer h3{
 	#fixed {
 		display: flex;
 	}
+	.cover-img {
+		background-attachment:scroll;
+	}
 }
