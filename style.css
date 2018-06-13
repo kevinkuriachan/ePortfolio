@@ -165,14 +165,6 @@ footer h3{
 	background-size: cover;
 }
 
-.backdrop {
-	background: url(img/work.jpg);
-	min-height: 100vh;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
 
 @media (max-width: 768px) {
 	.landing-text h1 {
