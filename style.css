@@ -95,6 +95,56 @@ html,body {
 	color: #500000;
 }
 
+.contact_header {
+	text-align: center;
+	position: absolute;
+	top:10%;
+	left:50%;
+	transform: translate(-50%, 50%);
+}
+
+.contact_form {
+	text-align: center;
+}	
+
+input {
+	width: 100%;
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #500000;
+}
+textarea {
+	width: 100%;
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #500000;
+}
+
+
+#msg {
+	margin-top: 40px;
+}
+
+::-webkit-input-placeholder {
+	color: #500000;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+#contact_submit {
+	padding: 10px 21px;
+	font-size: 21px;
+	color: white;
+	background: #500000;
+	border-radius: 10px;
+}
+
+.contact_submit_btn {
+	padding: 10px 0;
+}
+
 .landing-text {
 	display: table-cell;
 	text-align: center;
