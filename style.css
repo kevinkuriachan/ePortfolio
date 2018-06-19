@@ -216,6 +216,20 @@ footer h3{
 }
 
 
+#interests-landing {
+	background: url(img/art/creation_cropped_blur.jpg) no-repeat center center fixed;
+	height: 45vh;
+	width: 100vw;
+	display:table;
+	position: relative;
+	background-size: cover;
+}
+
+#interests-landing .landing-text h1 {
+	font-size: 1000%;
+	color: white;
+}
+
 @media (max-width: 768px) {
 	.landing-text h1 {
 		font-size: 600%;
