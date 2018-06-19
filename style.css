@@ -230,21 +230,41 @@ footer h3{
 	color: white;
 }
 
-#art h1 {
+.interest-title h1 {
 	font-size: 800%;
 	color: #500000;
 	font-weight: bold;
 	opacity: .4;
 }
 
-#art h2 {
+.interest-title h2 {
 	font-size: 400%;
 	color: #500000;
 	opacity: .5;
 	text-transform: lowercase;
 	font-weight: lighter;
 }
+.interest-title h3 {
+	font-size: 400%;
+	color: #500000;
+	opacity: .5;
+	font-weight: lighter;
+}
 
+.artGalley img:hover {
+	opacity: .7;
+}
+
+.artGallery {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
 @media (max-width: 768px) {
 	.landing-text h1 {
