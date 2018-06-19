@@ -230,6 +230,22 @@ footer h3{
 	color: white;
 }
 
+#art h1 {
+	font-size: 800%;
+	color: #500000;
+	font-weight: bold;
+	opacity: .4;
+}
+
+#art h2 {
+	font-size: 400%;
+	color: #500000;
+	opacity: .5;
+	text-transform: lowercase;
+	font-weight: lighter;
+}
+
+
 @media (max-width: 768px) {
 	.landing-text h1 {
 		font-size: 600%;
