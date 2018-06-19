@@ -247,8 +247,4 @@ footer h3{
 	#fixed {
 		display: flex;
 	}
-	footer {
-		margin-left: -30px;
-		margin-right: -30px;
-	}
 }
