@@ -283,4 +283,16 @@ footer h3{
 	#fixed {
 		display: flex;
 	}
+	#interests-landing .landing-text h1 {
+		font-size: 350%;
+	}
+	#interests-title h2 {
+		font-size: 230%;
+	}
+	.interest-title h1 {
+		font-style: 300%;
+	}
+	.interest-title h2 {
+		font-style: 200%;
+	}
 }
