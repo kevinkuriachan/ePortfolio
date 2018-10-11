@@ -1,2 +1,2 @@
 # ePortfolio
-# This will include my resume, contact, etc.
+# This will include my resume, contact, courses, etc.
