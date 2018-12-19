@@ -76,7 +76,7 @@ html,body {
 }
 
 #aboutMe h1 {
-	font-size: 1000%;
+	font-size: 10vh;
 	color: #500000;
 	text-transform: uppercase;
 }
