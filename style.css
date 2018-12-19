@@ -65,7 +65,9 @@ html,body {
 
 #aboutMe {
 	height: 100%;
+
 }
+
 
 .vertical_center {
 	margin: 0;
@@ -77,6 +79,7 @@ html,body {
 
 #aboutMe h1 {
 	font-size: 10vh;
+	font-family: "Courier New", Courier, monospace;
 	color: #500000;
 	text-transform: uppercase;
 }
