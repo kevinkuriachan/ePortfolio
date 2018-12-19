@@ -12,27 +12,27 @@ html,body {
 }
 
 .navbar .navbar-brand {
-	color: black;
+	color: white;
   	font-size: 170%;
   	font-weight: bold;
 }
 
 .navbar-brand:hover {
-	color: black !important;
+	color: white !important;
 }
 
 .navbar-inverse {
-	background-color: white;
+	background-color: #500000;
 }
 
 .navbar-inverse .navbar-nav li a {
-	color: gray;
+	color: rgb(231, 231, 231);
 	font-size: 120%;
 	font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-	color: black;
+	color: white;
 }
 
 .navbar-inverse .navbar-nav li a.active {
@@ -61,6 +61,24 @@ html,body {
 	display:table;
 	position: relative;
 	background-size: cover;
+}
+
+#aboutMe {
+	height: 100%;
+}
+
+.vertical_center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#aboutMe h1 {
+	font-size: 1000%;
+	color: #500000;
+	text-transform: uppercase;
 }
 
 #resume_landing {
