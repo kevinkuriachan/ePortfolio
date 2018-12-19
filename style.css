@@ -12,28 +12,32 @@ html,body {
 }
 
 .navbar .navbar-brand {
-	color: white;
+	color: black;
   	font-size: 170%;
   	font-weight: bold;
 }
 
+.navbar-brand:hover {
+	color: black !important;
+}
+
 .navbar-inverse {
-	background-color: #500000;
+	background-color: white;
 }
 
 .navbar-inverse .navbar-nav li a {
-	color: #D5D5D5;
+	color: gray;
 	font-size: 120%;
 	font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-	color: #FFF;
+	color: black;
 }
 
 .navbar-inverse .navbar-nav li a.active {
-	color: #FFF
-	background-color: #FFF;
+	color: black;
+	background-color: black;
 }
 
 #home a {
